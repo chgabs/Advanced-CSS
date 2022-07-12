@@ -58,13 +58,14 @@ footer {
 }
 
 footer h2 {
-  display: inline;
+  display: flex;
   color: #024e76;
   font-size: 30px;
   margin: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
