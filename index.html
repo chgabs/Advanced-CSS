@@ -1,6 +1,6 @@
 <html lang="eng">
   <head>
-    <meta name="viewport" content="width=device-width , initial-scale=1.0" /> 
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <title>Run Buddy</title>
@@ -80,16 +80,22 @@
           />
           <p>
             Have you ever worked out with a trainer before?
-            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-            <label for="trainer-yes">Yes</label>
-            <input type="radio" name="trainer-confirm" id="trainer-no" />
-            <label for="trainer-no">No</label>
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-yes" />
+              <label for="trainer-yes">Yes</label>
+            </span>
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-no" />
+              <label for="trainer-no">No</label>
+            </span>
           </p>
           <p>
-            <label for="checkbox">
-              I acknowledge that I am at least 18 years of age</label
-            >
-            <input type="checkbox" name="age-confirm" id="checkbox" />
+            <span class="checkbox-wrapper">
+              <input type="checkbox" name="age-confirm" id="checkbox" />
+              <label for="checkbox">
+                I acknowledge that I am at least 18 years of age</label
+              >
+            </span>
           </p>
           <button type="submit">Get Running!</button>
         </form>
@@ -136,27 +142,29 @@
           <div class="step-img">
             <img src="step-2.svg" alt="" />
           </div>
-        <div class="step-text">
-            <h4> Consult wit One of Our Trainers.</h4>
-            <p>Are you here to build muscle, lose weight, or just to feel good?</p>
+          <div class="step-text">
+            <h4>Consult wit One of Our Trainers.</h4>
+            <p>
+              Are you here to build muscle, lose weight, or just to feel good?
+            </p>
+          </div>
         </div>
       </div>
-      </div>
-        <div class="step">
-             <h3>Step 3:</h3>
+      <div class="step">
+        <h3>Step 3:</h3>
         <div class="step-info">
           <div class="step-img">
             <img src="step-3.svg" alt="" />
           </div>
-        <div class="step-text">
-        <h4> Get Running.</h4>
-        <p>
-          Hit the ground running (literally) once your trainer lays out your
-          plan
-        </p>
+          <div class="step-text">
+            <h4>Get Running.</h4>
+            <p>
+              Hit the ground running (literally) once your trainer lays out your
+              plan
+            </p>
+          </div>
+        </div>
       </div>
-      </div>
-     </div>
       <div class="step">
         <h3>Step 4:</h3>
         <div class="step-info">
@@ -164,13 +172,12 @@
             <img src="step-4.svg" alt="" />
           </div>
           <div class="step-text">
-        <h4> See Results.</h4>
-        <p>Bi-weekly checkins with your trainer will keep you focused</p>
-      </div>
+            <h4>See Results.</h4>
+            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+          </div>
         </div>
       </div>
     </section>
-    
 
     <!--'meet the trainers' section-->
     <section id="your-trainers">
@@ -233,7 +240,7 @@
       <div class="flex-row">
         <h2 class="section-title secondary-border">Reach Out</h2>
       </div>
-        <div class="contact-info">
+      <div class="contact-info">
         <div>
           <h3>Run Buddy</h3>
           <p>
@@ -261,14 +268,11 @@
             <button type="submit">Submit</button>
           </form>
         </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus" "
-                width="600"
-                height="450"
-                style="border: 0;"
-             allowfullscreen=""
-             loading="lazy">
-             </iframe>
-        </div>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus"
+        " width="600" height="450" style="border: 0;" allowfullscreen=""
+        loading="lazy">
+      </div>
     </section>
     <!--'footer' section-->
     <footer>
